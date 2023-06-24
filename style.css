@@ -3,8 +3,7 @@
 html, body, div, span, applet, object, iframe,
 blockquote, pre, abbr, acronym, address, big, cite,
 del, dfn, em, ins, kbd, q, s, samp,
-strike, sub, sup, tt, var,
-b, u, i, center,
+strike, sub, sup, tt, var, u, i, center,
 dl, dt, dd, ol,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
@@ -25,15 +24,14 @@ body {
     font-family: 'Roboto', sans-serif;
 	width: 100%;
 	height: 100%;
-	background-color: #1E1E21;
-	color: #d4d4d4;
+	background-color: #FEB144;
+	color: #000;
 }
 
 .navbar {
     margin: auto;
-    height: 12em;
 	max-width: 90%;
-	padding-bottom: 20px;
+	padding-bottom: 3em;
     line-height: 60px;
 }
 
@@ -62,11 +60,18 @@ body {
 
 .container {
     margin: auto;
-    text-align: center;
-    width: fit-content;
+    max-width: 60%;
+}
+
+.banner {
+    padding-top: 6.5em;
 }
 
 .typewriter h1 {
+    margin: auto;
+    width: fit-content;
+    block-size: fit-content;
+    max-width: 412px;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid gray; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
